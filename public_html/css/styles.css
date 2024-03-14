@@ -1,0 +1,27 @@
+/* Style for tree container */
+.tree {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Style for tree title */
+.tree h2 {
+    color: #00ff33;
+    font-size: 24px;
+}
+
+/* Style for tree image */
+.tree img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Optional: Add spacing between image and description */
+}
+
+/* Style for tree description */
+.tree p {
+    color: #666;
+    font-size: 16px;
+}

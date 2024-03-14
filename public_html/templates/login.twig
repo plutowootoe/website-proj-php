@@ -1,0 +1,16 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<div class="container">
+			<h1>Login</h1>
+		<form action="?a=form-login" method="POST">
+			<input type="username" placeholder="username" class="field" name="username">
+			<input type="password" placeholder="password" class="field" name="password">
+			<input type="submit" value="login" class="btn">
+		</form>
+		<div class="pass-link">
+			<a href="#" >Lost your password?</a>
+		</div>	
+	</div>
+{% endblock %}
+

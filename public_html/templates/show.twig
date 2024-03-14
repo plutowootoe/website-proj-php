@@ -1,0 +1,20 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<div class="tree">
+        <h2>{{ tree.title }}</h2>
+        <h4>{{ tree.latinTitle }}</h4>
+        <img src="{{ tree.image }}" alt="{{ tree.title }}">
+        <p>{{ tree.description }}</p>
+    </div>
+    <div class="tree2">
+        <h2>{{ tree2.title2 }}</h2>
+        <h4>{{ tree2.latinTitle2 }}</h4>
+        <img src="{{ tree2.image2 }}" alt="{{ tree2.title2 }}">
+        <p>{{ tree2.description2 }}</p>
+    </div>
+<form method="post" action="?a=logout">
+   <input type="submit" value="Logout" class="btn btn-danger">
+</form>
+{% endblock %}
+
